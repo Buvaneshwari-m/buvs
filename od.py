@@ -1,4 +1,4 @@
-m,n=map(int,input().split())
-for j in range(m+2,n):
-    if(j%4!=0):
-        print(i,end=' ')
+m,b=input().split()
+for j in range(float(m)+1,float(b)):
+    if(j%2!=0):
+        print(j,end=" ")
